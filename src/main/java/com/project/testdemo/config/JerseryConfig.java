@@ -5,12 +5,12 @@ import javax.ws.rs.ApplicationPath;
 import org.glassfish.jersey.server.ResourceConfig;
 import org.springframework.stereotype.Component;
 
-import com.project.testdemo.api.FormEndpoint;
+import com.project.testdemo.api.ContactFormEndpoint;
 
 @Component
 @ApplicationPath("/api")
 public class JerseryConfig extends ResourceConfig {
 	public JerseryConfig() {
-		register(FormEndpoint.class);
+		register(ContactFormEndpoint.class);
 	}
 }
