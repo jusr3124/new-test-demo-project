@@ -7,5 +7,5 @@ import com.project.testdemo.domain.ContactForm;
 
 @Component
 public interface ContactFormRepository extends CrudRepository<ContactForm, Long>{
-
+  
 }
